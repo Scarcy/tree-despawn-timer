@@ -26,10 +26,10 @@ public enum TreeConfig {
                     NullObjectID.NULL_10828, ObjectID.YEW_TREE_36683, ObjectID.YEW_TREE_40756, ObjectID.YEW_TREE_42391}),
     CAMPHOR(60 * 2, new int[]{ObjectID.CAMPHOR_TREE}),
     MAGIC(60 * 3 + 54, new int[]{ObjectID.MAGIC_TREE_10834, NullObjectID.NULL_10835}),
-    IRONWOOD(60 * 4, new int[]{ObjectID.IRONWOOD_TREE}),
+    IRONWOOD(60 * 3 + 54, new int[]{ObjectID.IRONWOOD_TREE}),
     REDWOOD(60 * 4 + 24,
             new int[]{ObjectID.REDWOOD_TREE, ObjectID.REDWOOD_TREE_29670}),
-    ROSEWOOD(60 * 4 + 35, new int[]{ObjectID.ROSEWOOD_TREE});
+    ROSEWOOD(60 * 4 + 24, new int[]{ObjectID.ROSEWOOD_TREE});
 
     private static final ArrayList<Integer> blockedRegions = new ArrayList<>(List.of(
             // Miscellania
